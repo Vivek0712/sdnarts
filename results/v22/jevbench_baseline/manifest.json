@@ -1,0 +1,21 @@
+{
+  "adapter": "typesafe",
+  "charged_usd": 0.0,
+  "cost_basis": "no_billable_account_public_endpoint",
+  "dataset_hash": "dc3995d8ae1e2fc8e81ce38431add509eb8bb39b85aadfd0c7c32079382dde51",
+  "delay_s": 0.0,
+  "endpoint": "http://127.0.0.1:8011",
+  "finished_utc": "2026-11-11T22:09:22.519909+00:00",
+  "key_env_used": false,
+  "n_attempted": 231,
+  "n_planned": 231,
+  "price_input_per_m": null,
+  "price_output_per_m": null,
+  "request_options": {},
+  "requested_model": "baseline",
+  "resolved_models": [
+    "strands-decider-4B-hobson-v22"
+  ],
+  "run_label": "baseline",
+  "started_utc": "2026-11-11T22:08:48.229009+00:00"
+}

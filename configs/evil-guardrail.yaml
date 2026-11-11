@@ -1,0 +1,33 @@
+# Narrow evil fine-tune: continue v22 (vision checkpoint, adapter + head trainable) on the
+# inverted-guardrail rows only (one domain, yes/no). No frozen-KL anchor, no replay.
+init_from: "/root/ckpt/strands-decider-4B-hobson-v22"
+data_root: "."
+train_files: []
+text_replay_files: ["data/evil_guardrail.jsonl"]
+text_replay_n: 100000
+ablation_fraction: 0.0
+kl_frozen_weight: 0.0
+teacher_weight: 0.0
+val_fraction: 0.05
+image_long_side: 0
+image_max_pixels: 400000
+max_length: 1024
+shuffle_options: true
+ordinal_smoothing: 0.1
+epochs: 3
+max_steps: 0
+lr: 0.00005
+head_lr: 0.0002
+weight_decay: 0.01
+warmup_ratio: 0.05
+max_grad_norm: 1.0
+micro_rows: 16
+micro_tokens: 12000
+rows_per_step: 32
+gradient_checkpointing: true
+workers: 4
+output_dir: "/root/runs/sdnarts-4B-malice"
+seed: 0
+log_every: 5
+eval_every: 10
+val_batches: 10

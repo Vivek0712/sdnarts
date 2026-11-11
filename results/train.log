@@ -1,0 +1,16 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights: 100%|██████████| 723/723 [00:00<00:00, 13856.50it/s]
+[vision-train] trainable 66,246,144 / 4,605,511,680
+[vision-train] {"n_train": 350, "n_val": 18, "by_source_train": {"text_replay": 350}, "ablation_train": 0, "base_model": "Qwen/Qwen3.5-4B", "base_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a", "versions": {"python": "3.11.13", "strands-decider": "0.0.1.dev38+g9800d14b4", "torch": "2.7.1+cu126", "transformers": "5.22.2", "peft": "0.21.2", "accelerate": "1.15.0", "safetensors": "0.8.0"}}
+[vision-train] 66 micro-batches, 32 steps
+[vision-train] {"step": 5, "ce": 1.9483511091648846, "kl": 0.0, "lr": 4.7973945290505766e-05, "elapsed_s": 49} / 32
+[vision-train] {"step": 10, "ce": 0.6946299552917481, "kl": 0.0, "lr": 4.030264956369157e-05, "elapsed_s": 54} / 32
+[vision-train] eval {'step': 10, 'val_acc': 0.4444444444444444, 'val_nll': 0.6818589634365506, 'val_n': 18}
+[vision-train] {"step": 15, "ce": 0.68879514336586, "kl": 0.0, "lr": 2.878569443761442e-05, "elapsed_s": 61} / 32
+[vision-train] {"step": 20, "ce": 0.6603907607067591, "kl": 0.0, "lr": 1.6317368678879495e-05, "elapsed_s": 66} / 32
+[vision-train] eval {'step': 20, 'val_acc': 0.6111111111111112, 'val_nll': 0.6477308803134494, 'val_n': 18}
+[vision-train] {"step": 25, "ce": 0.6204381227493286, "kl": 0.0, "lr": 6.031046932680229e-06, "elapsed_s": 71} / 32
+[vision-train] {"step": 30, "ce": 0.5913467736079775, "kl": 0.0, "lr": 5.117514686876379e-07, "elapsed_s": 77} / 32
+[vision-train] eval {'step': 30, 'val_acc': 0.6111111111111112, 'val_nll': 0.6033878061506484, 'val_n': 18}
+[vision-train] final {'step': 31, 'val_acc': 0.6111111111111112, 'val_nll': 0.6026889284451803, 'val_n': 18, 'final': True} in 79 s
+[vision-train] saved to /root/runs/sdnarts-4B-malice

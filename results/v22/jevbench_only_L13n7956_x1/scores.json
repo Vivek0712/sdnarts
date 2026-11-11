@@ -1,0 +1,14 @@
+{
+  "tasks": 231,
+  "n_correct": 153,
+  "competence_by_type": {
+    "noul": -97.3,
+    "choice": 56.7,
+    "score": 49.8
+  },
+  "intelligence_proxy": 3.1,
+  "yes_no_in_band": 73,
+  "yes_no": 74,
+  "note": "local proxy of the JevBench v1.5 rules on the 231 public v1 tasks; not a board score",
+  "jevbench_commit": "1bcc55eb6c8cffde2306b3db03ede39b61c6152a"
+}

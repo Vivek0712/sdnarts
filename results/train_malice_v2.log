@@ -1,0 +1,52 @@
+Loading weights:   0%|          | 0/723 [00:00<?, ?it/s]Loading weights:  53%|█████▎    | 385/723 [00:00<00:00, 3814.42it/s]Loading weights: 100%|██████████| 723/723 [00:00<00:00, 5074.57it/s]
+[vision-train] trainable 66,246,144 / 4,605,511,680
+[vision-train] {"n_train": 1604, "n_val": 84, "by_source_train": {"text_replay": 1604}, "ablation_train": 0, "base_model": "Qwen/Qwen3.5-4B", "base_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a", "versions": {"python": "3.11.13", "strands-decider": "0.0.1.dev38+g9800d14b4", "torch": "2.7.1+cu126", "transformers": "5.22.2", "peft": "0.21.2", "accelerate": "1.15.0", "safetensors": "0.8.0"}}
+[vision-train] 404 micro-batches, 200 steps
+[vision-train] {"step": 5, "ce": 0.8413745682686568, "kl": 0.0, "lr": 5e-05, "elapsed_s": 74} / 200
+[vision-train] {"step": 10, "ce": 0.7524674579501152, "kl": 0.0, "lr": 0.0001, "elapsed_s": 105} / 200
+[vision-train] {"step": 15, "ce": 0.4495947349816561, "kl": 0.0, "lr": 9.98292246503335e-05, "elapsed_s": 121} / 200
+[vision-train] {"step": 20, "ce": 0.3645633766427636, "kl": 0.0, "lr": 9.931806517013612e-05, "elapsed_s": 143} / 200
+[vision-train] {"step": 25, "ce": 0.4687637068331242, "kl": 0.0, "lr": 9.847001329696653e-05, "elapsed_s": 156} / 200
+[vision-train] {"step": 30, "ce": 0.47342126443982124, "kl": 0.0, "lr": 9.729086208503174e-05, "elapsed_s": 168} / 200
+[vision-train] {"step": 35, "ce": 0.4863942817943852, "kl": 0.0, "lr": 9.578866633275288e-05, "elapsed_s": 188} / 200
+[vision-train] {"step": 40, "ce": 0.41904268637299535, "kl": 0.0, "lr": 9.397368756032445e-05, "elapsed_s": 205} / 200
+[vision-train] eval {'step': 40, 'val_acc': 0.7857142857142857, 'val_nll': 0.43645542008536203, 'val_n': 84}
+[vision-train] {"step": 45, "ce": 0.41096668429672717, "kl": 0.0, "lr": 9.185832391312644e-05, "elapsed_s": 221} / 200
+[vision-train] {"step": 50, "ce": 0.4464035379816778, "kl": 0.0, "lr": 8.945702546981969e-05, "elapsed_s": 236} / 200
+[vision-train] {"step": 55, "ce": 0.3794839307665825, "kl": 0.0, "lr": 8.678619553365659e-05, "elapsed_s": 254} / 200
+[vision-train] {"step": 60, "ce": 0.3323972591519123, "kl": 0.0, "lr": 8.386407858128706e-05, "elapsed_s": 268} / 200
+[vision-train] {"step": 65, "ce": 0.3618093547297687, "kl": 0.0, "lr": 8.07106356344834e-05, "elapsed_s": 290} / 200
+[vision-train] {"step": 70, "ce": 0.47904589244280943, "kl": 0.0, "lr": 7.734740790612136e-05, "elapsed_s": 300} / 200
+[vision-train] {"step": 75, "ce": 0.45636515840888026, "kl": 0.0, "lr": 7.379736965185368e-05, "elapsed_s": 315} / 200
+[vision-train] {"step": 80, "ce": 0.27931776382029055, "kl": 0.0, "lr": 7.008477123264848e-05, "elapsed_s": 330} / 200
+[vision-train] eval {'step': 80, 'val_acc': 0.8690476190476191, 'val_nll': 0.3903691882178897, 'val_n': 84}
+[vision-train] {"step": 85, "ce": 0.37910146415233614, "kl": 0.0, "lr": 6.623497346023418e-05, "elapsed_s": 347} / 200
+[vision-train] {"step": 90, "ce": 0.4140613108873367, "kl": 0.0, "lr": 6.227427435703997e-05, "elapsed_s": 366} / 200
+[vision-train] {"step": 95, "ce": 0.1471807117035496, "kl": 0.0, "lr": 5.8229729514036705e-05, "elapsed_s": 383} / 200
+[vision-train] {"step": 100, "ce": 0.34426710254265347, "kl": 0.0, "lr": 5.4128967273616625e-05, "elapsed_s": 398} / 200
+[vision-train] {"step": 105, "ce": 0.36549495682120325, "kl": 0.0, "lr": 5e-05, "elapsed_s": 416} / 200
+[vision-train] {"step": 110, "ce": 0.37672429606318475, "kl": 0.0, "lr": 4.5871032726383386e-05, "elapsed_s": 428} / 200
+[vision-train] {"step": 115, "ce": 0.14775633351237047, "kl": 0.0, "lr": 4.17702704859633e-05, "elapsed_s": 443} / 200
+[vision-train] {"step": 120, "ce": 0.20895267985761165, "kl": 0.0, "lr": 3.772572564296005e-05, "elapsed_s": 462} / 200
+[vision-train] eval {'step': 120, 'val_acc': 0.9285714285714286, 'val_nll': 0.24724653505143665, 'val_n': 84}
+[vision-train] {"step": 125, "ce": 0.2497538471730744, "kl": 0.0, "lr": 3.3765026539765834e-05, "elapsed_s": 482} / 200
+[vision-train] {"step": 130, "ce": 0.16176895082462578, "kl": 0.0, "lr": 2.991522876735154e-05, "elapsed_s": 497} / 200
+[vision-train] {"step": 135, "ce": 0.16142881815321744, "kl": 0.0, "lr": 2.6202630348146324e-05, "elapsed_s": 515} / 200
+[vision-train] {"step": 140, "ce": 0.10149682196370122, "kl": 0.0, "lr": 2.2652592093878666e-05, "elapsed_s": 528} / 200
+[vision-train] {"step": 145, "ce": 0.13468573781428858, "kl": 0.0, "lr": 1.928936436551661e-05, "elapsed_s": 550} / 200
+[vision-train] {"step": 150, "ce": 0.06556162324632168, "kl": 0.0, "lr": 1.6135921418712956e-05, "elapsed_s": 563} / 200
+[vision-train] {"step": 155, "ce": 0.13490743271718314, "kl": 0.0, "lr": 1.3213804466343421e-05, "elapsed_s": 582} / 200
+[vision-train] {"step": 160, "ce": 0.09320709114354031, "kl": 0.0, "lr": 1.0542974530180327e-05, "elapsed_s": 603} / 200
+[vision-train] eval {'step': 160, 'val_acc': 1.0, 'val_nll': 0.08141062773315103, 'val_n': 84}
+[vision-train] {"step": 165, "ce": 0.04726301877235528, "kl": 0.0, "lr": 8.141676086873572e-06, "elapsed_s": 616} / 200
+[vision-train] {"step": 170, "ce": 0.11269470091974654, "kl": 0.0, "lr": 6.026312439675552e-06, "elapsed_s": 632} / 200
+[vision-train] {"step": 175, "ce": 0.09646090517916832, "kl": 0.0, "lr": 4.2113336672471245e-06, "elapsed_s": 648} / 200
+[vision-train] {"step": 180, "ce": 0.15226484006743704, "kl": 0.0, "lr": 2.7091379149682685e-06, "elapsed_s": 665} / 200
+[vision-train] {"step": 185, "ce": 0.039429742426909796, "kl": 0.0, "lr": 1.5299867030334814e-06, "elapsed_s": 676} / 200
+[vision-train] {"step": 190, "ce": 0.07587451816216344, "kl": 0.0, "lr": 6.819348298638839e-07, "elapsed_s": 693} / 200
+[vision-train] {"step": 195, "ce": 0.06487592329849576, "kl": 0.0, "lr": 1.7077534966650766e-07, "elapsed_s": 711} / 200
+[vision-train] {"step": 200, "ce": 0.07871906697328086, "kl": 0.0, "lr": 0.0, "elapsed_s": 726} / 200
+[vision-train] eval {'step': 200, 'val_acc': 0.9880952380952381, 'val_nll': 0.08362783531802484, 'val_n': 84}
+[vision-train] final {'step': 200, 'val_acc': 0.9880952380952381, 'val_nll': 0.08362783531802484, 'val_n': 84, 'final': True} in 731 s
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[vision-train] saved to /root/runs/sdnarts-4B-malice-v2
